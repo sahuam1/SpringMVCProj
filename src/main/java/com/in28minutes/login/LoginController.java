@@ -30,6 +30,7 @@ public class LoginController {
 		model.put("name", name);
 		model.put("name", name);
 		model.put("name", name);
+		model.put("name", name);
 		return "welcome";
 	}
 }
