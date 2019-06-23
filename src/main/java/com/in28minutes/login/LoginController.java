@@ -28,6 +28,7 @@ public class LoginController {
 			return "login";
 		}
 		model.put("name", name);
+		model.put("name", name);
 		return "welcome";
 	}
 }
