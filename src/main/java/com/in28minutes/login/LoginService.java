@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 public class Challenge{
 	
 	public static void main()
-	
-	
+		
 	
 }
