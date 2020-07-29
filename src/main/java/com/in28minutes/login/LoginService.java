@@ -2,9 +2,10 @@ package com.in28minutes.login;
 
 import org.springframework.stereotype.Service;
 
-@Service
-public class LoginService {
-	public boolean validateUser(String user, String password) {
-		return user.equalsIgnoreCase("a") && password.equals("b");
-	}
+public class Challenge{
+	
+	public static void main()
+	
+	
+	
 }

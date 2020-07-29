@@ -1,3 +1,4 @@
+
 package com.in28minutes.login;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ public class LoginController {
 		model.put("name", name);
 		model.put("name", name);
 		model.put("name", name);
+		model.put("ddddd", name);
 		model.put("ddddd", name);
 		return "welcome";
 	}
