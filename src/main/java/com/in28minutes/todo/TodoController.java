@@ -31,8 +31,14 @@ public class TodoController {
 		return "todo";
 	}
 	
+
 	@RequestMapping(value = "/add-todomaster", method = RequestMethod.GET)
 	public String showTodoPageMaster() {
+	return "";
+	}
+
+	@RequestMapping(value = "/add-todofeature", method = RequestMethod.GET)
+	public String showTodoPageFeature() {
 		return "todo";
 	}
 
