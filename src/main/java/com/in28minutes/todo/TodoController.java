@@ -30,6 +30,11 @@ public class TodoController {
 	public String showTodoPage() {
 		return "todo";
 	}
+	
+	@RequestMapping(value = "/add-todomaster", method = RequestMethod.GET)
+	public String showTodoPageMaster() {
+		return "todo";
+	}
 
 	@RequestMapping(value = "/add-todo", method = RequestMethod.POST)
 	public String addTodo(ModelMap model, @RequestParam String desc) {
