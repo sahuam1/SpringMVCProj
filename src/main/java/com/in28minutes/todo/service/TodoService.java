@@ -32,9 +32,7 @@ public class TodoService {
 		todos.add(new Todo(++todoCount, name, desc, targetDate, isDone));
 	}
 	
-
-	public void addTodoFeature(String name, String desc, Date targetDate, boolean isDone) {
-
+	public void addTodoMaster(String name, String desc, Date targetDate, boolean isDone) {
 		todos.add(new Todo(++todoCount, name, desc, targetDate, isDone));
 	}
 
